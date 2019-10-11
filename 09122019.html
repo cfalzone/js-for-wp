@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Group Discussion - Basic JS - JavaScript Explained</title>
+  </head>
+  <body>
+    <h1> Basic JS Exercies </h1>
+    <p>Open the console to seet the output</p>
+    <script>
+        // 1.
+        const firstName = "Chris";
+        const lastName = "Falzone";
+        // 2.
+        const fullName = `${firstName} ${lastName}`;
+        // 3.
+        const welcomeMessage = `Hello ${fullName}, how are you today?`;
+        console.log(welcomeMessage);
+
+        // 4.
+        const a = 38;
+        const b = 21;
+        // 5.
+        console.log(a + b); // 59
+        // 6.
+        console.log(a - b); // 17
+
+        // 7.
+        console.log(`10` + 10); // 1010
+
+        // 8.
+        let loggedIn = false;
+        // 9.
+        if (!loggedIn) {
+            console.log(`Please Log In`);
+        }
+
+        // 10.
+        loggedIn = true;
+        if (loggedIn) {
+            console.log(welcomeMessage);
+        } else {
+            console.log(`Please Log In`);
+        }
+
+        // 11.
+        function greeting(isLoggedId) {
+            if (isLoggedId) {
+                return welcomeMessage;
+            } else {
+                return `Please Log In`;
+            }
+        }
+        console.log(greeting(true));
+        console.log(greeting(false));
+    </script>
+  </body>
+</html>

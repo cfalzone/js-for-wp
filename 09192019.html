@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Group Discussion - The Browser API - JavaScript Explained</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>The Browser API Exercises</h1>
+      <p>Open the web inspector console to test.</p>
+      <ul>
+        <li><a href="#link-1">Link 1</a></li>
+        <li><a href="#link-2">Link 2</a></li>
+        <li><a href="#link-3">Link 3</a></li>
+      </ul>
+    </div>
+  </body>
+  <script>
+    // 1.
+    const container = document.getElementById('container');
+
+    // 2.
+    const firstH1 = container.querySelector('h1');
+    console.log(firstH1);
+
+    // 3.
+    function header(title) {
+      return `<h2>${title}</h2>`;
+    }
+    const h2 = header("My Header")
+    console.log(h2);
+    container.insertAdjacentHTML("beforeend", h2);
+
+    // 4.
+    function logTitle(e) {
+      e.preventDefault();
+      console.log(`You clicked link: ${this.innerText}`);
+    }
+    const links = container.querySelectorAll('a');
+    for (let i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", logTitle);
+    }
+  </script>
+</html>

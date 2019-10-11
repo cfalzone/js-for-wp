@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Group Discussion - The WP JSON Api - JavaScript Explained</title>
+  </head>
+  <body>
+    <h1>The WP JSON Api</h1>
+    <h2>Posts pulled via the API</h2>
+    <div id="container"></div>
+
+    <script>
+
+    const apiUrl = 'https://firebrandtalent.com/wp-json/wp/v2/posts';
+
+    const getPosts = async () => {
+      const apiResponse = await fetch(apiUrl);
+      return apiResponse.json();
+    };
+
+    const addPost = post => {
+      const con = document.getElementById('container');
+      
+      const postHtml = `<div class="post">
+        <h1>${post.title.rendered}</h1>
+        <div class="post-excerpt">${post.excerpt.rendered}</div>
+      </div>`;
+
+      con.insertAdjacentHTML('beforeEnd', postHtml);
+    };
+
+    getPosts().then(posts => {
+      console.log(posts);
+      posts.forEach(post => addPost(post));
+    });
+
+    </script>
+  </body>
+  </html>
