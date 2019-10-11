@@ -1,0 +1,23 @@
+main, header, section, aside, footer {
+  margin: 0;
+  padding: rem-calc(20);
+}
+
+#app {
+  flex: 1;
+}
+
+#sidebar {
+  flex: 0 1 $sidebar-width;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: $page-width;
+}
+
+.flex-container {
+  @media screen and (min-width: $small){
+    display: flex;   
+  }
+}
