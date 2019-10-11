@@ -1,0 +1,12 @@
+{
+  "name": "js-for-wp",
+  "version": "1.0.0",
+  "description": "JavaScript for Wordpress Bootcamp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfalzone/js-for-wp.git"
+  },
+  "author": "cfalzone@aquent.com",
+  "license": "MIT",
+  "homepage": "https://github.com/cfalzone/js-for-wp"
+}
