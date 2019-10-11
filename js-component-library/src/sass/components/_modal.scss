@@ -1,0 +1,46 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: $white;
+  min-width: 320px;
+  width: 80%;
+  min-height: 320px;
+  height: 80%;
+  overflow: scroll;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,.2);
+  border: 1px solid $black;
+
+  .modal-title {
+    color: $white;
+    background: $gray;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    height: 50px;
+
+    h4 {
+      margin: 0;
+    }
+    
+    .modal-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: $white;
+      font-weight: $bold;
+      display: block;
+      padding: 0 20px;
+      background: $black;
+      height: 100%;
+      border: none;
+    }
+  }
+
+  .modal-content {
+    padding: 1rem;
+    text-align: left;
+  }
+}

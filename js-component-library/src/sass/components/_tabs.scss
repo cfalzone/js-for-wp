@@ -1,0 +1,21 @@
+.tabs-container {
+  ul.tabs-list {
+    margin-bottom: 0;
+    padding-left: 0;
+    li {
+      padding: .5rem;
+      list-style: none;
+      display: inline-block;
+      border: 1px solid $black;
+      cursor: pointer;
+      &.current {
+        color: $white;
+        background-color: $black;
+      }
+    }
+  }
+  .tab-body {
+    padding: 1rem;
+    border: 1px solid $black;
+  }
+}
