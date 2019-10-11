@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "start": "parcel src/*.html --open -p 4040",
-    "build": "rm -rf dist && parcel build src/*.html --public-url /js-for-wp"
+    "build": "rm -rf dist && parcel build src/*.html --public-url /js-for-wp/js-component-library/dist"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
