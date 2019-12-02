@@ -57,7 +57,12 @@ class HomeContent extends Component {
         title={process.env.REACT_APP_NAME}
         description="I should put some description here"
         button={
-          <Fab className={classes.button} color="secondary" href="https://github.com/Phoqe/react-material-ui-firebase" rel="noopener noreferrer" target="_blank" variant="extended">
+          <Fab className={classes.button}
+              color="secondary"
+              href="https://github.com/cfalzone/js-for-wp/tree/master/bgg-browser-app"
+              rel="noopener noreferrer"
+              target="_blank"
+              variant="extended">
             <GitHubCircleIcon className={classes.buttonIcon} />
             GitHub
           </Fab>

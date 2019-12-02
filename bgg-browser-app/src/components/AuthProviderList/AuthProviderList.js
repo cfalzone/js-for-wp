@@ -7,12 +7,12 @@ import { createMuiTheme, withStyles, MuiThemeProvider } from '@material-ui/core/
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
-import FacebookBoxIcon from 'mdi-material-ui/FacebookBox';
-import GitHubCircleIcon from 'mdi-material-ui/GithubCircle';
+// import FacebookBoxIcon from 'mdi-material-ui/FacebookBox';
+// import GitHubCircleIcon from 'mdi-material-ui/GithubCircle';
 import GoogleIcon from 'mdi-material-ui/Google';
-import MicrosoftIcon from 'mdi-material-ui/Microsoft';
-import TwitterIcon from 'mdi-material-ui/Twitter';
-import YahooIcon from 'mdi-material-ui/Yahoo';
+// import MicrosoftIcon from 'mdi-material-ui/Microsoft';
+// import TwitterIcon from 'mdi-material-ui/Twitter';
+// import YahooIcon from 'mdi-material-ui/Yahoo';
 
 const styles = (theme) => ({
   grid: {
