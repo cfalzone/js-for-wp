@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/js-for-wp/bgg-browser-app/static/css/main.795991f2.chunk.css",
+    "main.js": "/js-for-wp/bgg-browser-app/static/js/main.83b1f46a.chunk.js",
+    "main.js.map": "/js-for-wp/bgg-browser-app/static/js/main.83b1f46a.chunk.js.map",
+    "runtime-main.js": "/js-for-wp/bgg-browser-app/static/js/runtime-main.1de0450b.js",
+    "runtime-main.js.map": "/js-for-wp/bgg-browser-app/static/js/runtime-main.1de0450b.js.map",
+    "static/css/2.99e6987d.chunk.css": "/js-for-wp/bgg-browser-app/static/css/2.99e6987d.chunk.css",
+    "static/js/2.c8e86d5c.chunk.js": "/js-for-wp/bgg-browser-app/static/js/2.c8e86d5c.chunk.js",
+    "static/js/2.c8e86d5c.chunk.js.map": "/js-for-wp/bgg-browser-app/static/js/2.c8e86d5c.chunk.js.map",
+    "index.html": "/js-for-wp/bgg-browser-app/index.html",
+    "precache-manifest.5f259f458e7546a251fef9eb0eed195e.js": "/js-for-wp/bgg-browser-app/precache-manifest.5f259f458e7546a251fef9eb0eed195e.js",
+    "service-worker.js": "/js-for-wp/bgg-browser-app/service-worker.js",
+    "static/css/2.99e6987d.chunk.css.map": "/js-for-wp/bgg-browser-app/static/css/2.99e6987d.chunk.css.map",
+    "static/css/main.795991f2.chunk.css.map": "/js-for-wp/bgg-browser-app/static/css/main.795991f2.chunk.css.map",
+    "static/media/index.css": "/js-for-wp/bgg-browser-app/static/media/roboto-latin-900italic.ebf6d164.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1de0450b.js",
+    "static/css/2.99e6987d.chunk.css",
+    "static/js/2.c8e86d5c.chunk.js",
+    "static/css/main.795991f2.chunk.css",
+    "static/js/main.83b1f46a.chunk.js"
+  ]
+}
