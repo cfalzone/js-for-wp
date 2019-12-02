@@ -39,7 +39,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "https://cfalzone.github.io/js-for-wp/bgg-browser-app",
+  "homepage": "https://cfalzone.github.io/js-for-wp/bgg-browser-app/build",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
